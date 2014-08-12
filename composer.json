@@ -8,15 +8,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/kmiller68/hhvm-ext-uuid"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/kmiller68/debian_installer"
         }
     ],
     "require": {
         "kmiller68/hhvm-pgsql": "dev-master",
-        "hhvm/debian-composer-plugin": "dev-master",
         "kmiller68/hhvm-ext-uuid": "dev-master"
     },
     "minimum-stability": "dev"
