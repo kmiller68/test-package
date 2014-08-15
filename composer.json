@@ -7,17 +7,33 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/kmiller68/hhvm-ssdeep"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kmiller68/hhvm-ext-geoip"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/kmiller68/hhvm-ext-uuid"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kmiller68/hhvm-ext_dbase"
         }
     ],
     "require": {
-        "kmiller68/hhvm-pgsql": "dev-master",
-        "kmiller68/hhvm-ext-uuid": "dev-master"
+        "PocketRent/hhvm-pgsql": "dev-master",
+        "treffynnon/hhvm-ssdeep": "dev-master",
+        "vipsoft/hhvm-ext-geoip": "dev-master",
+        "vipsoft/hhvm-ext-uuid": "dev-master",
+        "skyfms/hhvm-ext_dbase": "dev-master"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
     "config": {
         "ext-options": {
             "kmiller68/hhvm-pgsql": ""
-        }
+        },
+        "process-timeout": 10000
     }
 }
