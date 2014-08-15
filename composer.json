@@ -15,4 +15,9 @@
         "kmiller68/hhvm-ext-uuid": "dev-master"
     },
     "minimum-stability": "dev"
+    "config": {
+        "ext-options": {
+            "kmiller68/hhvm-pgsql": ""
+        }
+    }
 }
